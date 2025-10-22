@@ -1,6 +1,6 @@
-# 🟣 Twitch Ad Skip
+# 🟣 Twitch Ad Off
 
-A lightweight browser extension that automatically **skips** or **mutes** ads on Twitch — for a smooth, uninterrupted viewing experience.
+A lightweight browser extension that automatically **skips** ads on Twitch — for a smooth, uninterrupted viewing experience.
 
 ---
 
