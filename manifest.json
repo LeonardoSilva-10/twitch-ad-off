@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Twitch Ad Skip",
+    "name": "Twitch Ad Off",
     "version": "0.0.1",
     "author": "Leonardo Ferreira",
     "description": "Attempt to skip Twitch live ads.",
@@ -8,7 +8,7 @@
     "host_permissions": ["https://*.twitch.tv/*"],
     "action": {
         "default_popup": "popup.html",
-        "default_title": "Twitch Ad Skip"
+        "default_title": "Twitch Ad Off"
     },
     "background": {
         "service_worker": "service_worker.js"
