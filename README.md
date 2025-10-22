@@ -24,5 +24,5 @@ A lightweight browser extension that automatically **skips** ads on Twitch — f
 
 1. **Clone or download** this repository:
    ```bash
-   git clone https://github.com/<your-username>/twitch-ad-skip.git
+   git clone https://github.com/LeonardoSilva-10/twitch-ad-off.git
 
