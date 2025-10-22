@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Twitch Ad Off",
+    "version": "0.0.1",
+    "author": "Leonardo Ferreira",
+    "description": "Attempt to skip Twitch live ads.",
+    "permissions": ["scripting", "storage", "activeTab"],
+    "host_permissions": ["https://*.twitch.tv/*"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Twitch Ad Off"
+    },
+    "background": {
+        "service_worker": "service_worker.js"
+    },
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      },
+    "content_scripts": [
+      {
+        "matches": ["https://www.twitch.tv/*"],
+        "js": ["content_script.js"],
+        "run_at": "document_start",
+        "icons": [
+            "icons/icon16.png"
+        ]
+      }
+    ]
+  }
+  
