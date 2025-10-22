@@ -1,2 +1,28 @@
-# twitch-ad-off
-A lightweight browser extension that automatically skips or mutes Twitch ads for a smoother, uninterrupted viewing experience
+# 🟣 Twitch Ad Skip
+
+A lightweight browser extension that automatically **skips** or **mutes** ads on Twitch — for a smooth, uninterrupted viewing experience.
+
+---
+
+## 🚀 Features
+
+- 🚫 **Auto-skip ads** — Automatically bypass or hide Twitch ads.  
+- 🔒 **Privacy-friendly** — No tracking, analytics, or data collection.  
+
+---
+
+## 🖥️ Supported Browsers
+
+- **Google Chrome**
+- **Brave**
+
+---
+
+## 📦 Installation
+
+### 🧪 Manual Installation (Developer Mode)
+
+1. **Clone or download** this repository:
+   ```bash
+   git clone https://github.com/<your-username>/twitch-ad-skip.git
+
